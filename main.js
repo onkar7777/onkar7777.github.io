@@ -20,6 +20,9 @@ $(document).ready(function(){
      if(urlLoc == 'appearance.html'){
       $('#Link-setting4').addClass("active");
    }
+   if(urlLoc == 'export.html'){
+    $('#Link-setting5').addClass("active");
+ }
  $('[data-toggle="offcanvas"]').click(function(){
      $("#navigation").toggleClass("hidden-xs");
  });
