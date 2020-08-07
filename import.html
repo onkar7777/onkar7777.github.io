@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Import Zip Code</title>
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="./test.css">
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&family=Thasadith:wght@700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="./mycss.css">
+<style>
+
+</style>
+</head>
+<body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                <div class="logo">
+                    <a hef="home.html"><img src="./images.png"  style="height:100px; width: 100px;" alt="merkery_logo" class="hidden-xs hidden-sm"> 
+                        
+                        <img src="./images.png" alt="merkery_logo" class="visible-xs visible-sm circle-logo">
+                    </a>
+                   
+                </div>
+                <div class="navi">
+                    <ul>
+                        <li id="Link-setting1"><a href="./index.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Dashboard</span></a></li>
+                        <li id="Link-setting2"><a href="./settings.html" ><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Settings</span></a></li>
+                        <li id="Link-setting3"><a href="./import.html"><i class="fa fa-cloud-upload" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Import Zipcodes</span></a></li>
+                        <li id="Link-setting4"><a href="./appearance.html"><i class="fa fa-paint-brush" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Appearance</span></a></li>
+                        <li id="Link-setting5"><a href="#"><i class="fa fa-cloud-download" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Export Zipcodes</span></a></li>
+                        <li id="Link-setting6"><a href="#"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Get Help</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header class="">
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                           
+                        </div>
+                        <div>
+                            <h2 style="font-family: 'Sriracha', cursive; ">Zip Code Validator</h2>
+                        </div>
+                        
+                    </header>
+                </div>
+                <div class="user-dashboard">
+                    <div class="row main_dash">
+                        
+                        <div class="col-md-7 col-sm-7 col-xs-12 gutter">
+
+                            <div class="row sales-report">
+                                <div class="col-md-12 shadow p-3 mb-5 bg-white rounded dashboard-help" style="margin-top:20px"> 
+                                    <h4 style="font-family: 'Sriracha', cursive;"><b>Import Zipcodes :</b></h4>
+                                    <p>Please upload a CSV file containing list of all zipcodes.</p>
+                                </div>  
+                                <div class="col-md-12 dash-points" style="padding-bottom: 20px;">
+                                     <p style="font-size: 28px;margin-left: 5px; padding-top: 20px;">Clear Current Zipcodes:</p>
+                                     <button class="fillme" style="padding:10px 15px;margin-left: 5px; font-size: 10px; background-color: orange; border: none; color: white; border-radius: 5px;">CLEAR ZIPCODES</button>
+                                     <hr>
+                                </div>   
+                                <div class="col-md-12">
+                                    <input type="file">
+                                    <p style="padding-bottom: 5px;padding-top: 5px;color: purple;">File should be in the format given in Sample file.</p>
+                                    <div class="col-md-12" >
+                                        <p> <span style="font-weight: 800;"> Need Sample File?:</span> <a href="#">Download Sample.csv</a></p>
+                                      <button class="fillme2" style="padding:10px 15px;margin-left: 5px; font-size: 10px;background-image: linear-gradient( 109.1deg,  rgba(181,73,91,1) 7.1%, rgba(225,107,140,1) 86.4% );margin-bottom: 16px; border: none; color: white; border-radius: 5px;float: right;">IMPORT NOW</button>
+                                    </div>
+
+                                </div>                   
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-xs-12 shadow p-3 mb-5 bg-white rounded gutter">
+                            
+                            <div class="sales">
+                                <div class="col-md-12 dashboard-help">
+                                    <h5 style="font-family: 'Sriracha', cursive;"><b>Output :</b>
+                                        It will look like this at your store.</h5>
+                                </div> 
+                                <!-- <div>
+                                    <img src="./truck.gif" style="width: 90%;" alt="">
+                                </div> -->
+                                <div class="col-md-12">
+                                    <h4 style="padding-left:15px;padding-top: 30px;font-weight: 800; font-family:  'Sriracha', cursive; padding-bottom: 25px;">Preview :</h4>
+                                    <div class="col-md-12" style="padding-bottom: 35px;">
+                                        <label for="DELIVERY OPTIONS" style="padding-bottom: 10px;"> <i class="fa fa-truck" style="font-size: 20px;" aria-hidden="true"></i> &nbsp;  DELIVERY OPTIONS</label>
+                                         <input type="text" style="padding: 9px 0px 9px 10px;" placeholder="Enter your zipcode" name="" id=""> 
+                                         <button class="check-valid-btn" >CHECK</button>
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="row Myfooter">
+                 <p style="text-align: center;padding-top: 20px;">©<b> 2020 Copyright:</b> Made with <i class="fa fa-heart" aria-hidden="true"></i>  Zip Code Validator | <span style="color:#5e20f1;">Ens Unique Product</span> </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<script src="./main.js"></script>
+<script>
+   
+ 
+</script>
+</body>
+</html>
