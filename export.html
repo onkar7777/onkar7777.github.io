@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Import Zip Code</title>
+    <title>Export</title>
    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -20,7 +20,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Sriracha&family=Thasadith:wght@700&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="./mycss.css">
 <style>
-
+.download_btn-save{
+    color: white;
+            padding: 9px 30px;
+            background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+}
 </style>
 </head>
 <body class="home">
@@ -75,23 +82,22 @@
 
                             <div class="row sales-report">
                                 <div class="col-md-12 shadow p-3 mb-5 bg-white rounded dashboard-help" style="margin-top:20px"> 
-                                    <h4 style="font-family: 'Sriracha', cursive;"><b>Import Zipcodes :</b></h4>
-                                    <p>Please upload a CSV file containing list of all zipcodes.</p>
+                                    <h4 style="font-family: 'Sriracha', cursive;"><b>Export Zipcodes :</b></h4>
+                                   
                                 </div>  
-                                <div class="col-md-12 dash-points" style="padding-bottom: 20px;">
-                                     <p style="font-size: 28px;margin-left: 5px; padding-top: 20px;">Clear Current Zipcodes:</p>
-                                     <button class="fillme" style="padding:10px 15px;margin-left: 5px; font-size: 10px; background-color: orange; border: none; color: white; border-radius: 5px;">CLEAR ZIPCODES</button>
-                                     <hr>
-                                </div>   
-                                <div class="col-md-12">
-                                    <input type="file">
-                                    <p style="padding-bottom: 5px;padding-top: 5px;color: purple;">File should be in the format given in Sample file.</p>
-                                    <div class="col-md-12" >
-                                        <p> <span style="font-weight: 800;"> Need Sample File?:</span> <a href="#">Download Sample.csv</a></p>
-                                      <button class="fillme2" style="padding:10px 15px;margin-left: 5px; font-size: 10px;background-image: linear-gradient( 109.1deg,  rgba(181,73,91,1) 7.1%, rgba(225,107,140,1) 86.4% );margin-bottom: 16px; border: none; color: white; border-radius: 5px;float: right;">IMPORT NOW</button>
+                                <div class="col-md-12 dash-points">
+                                    <div class="col-md-12" style="margin-top: 30px;">
+                                        <div class="col-md-12" style="margin-top: 40px; padding-bottom: 220px;">
+                                           
+                                            <div class="col-md-5">
+                                                <label>Export your <br> zipcodes : </label>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <button class="download_btn-save">DOWNLOAD NOW</button>
+                                            </div>
+                                        </div>
                                     </div>
-
-                                </div>                   
+                                </div>                      
                             </div>
                         </div>
                         <div class="col-md-5 col-sm-5 col-xs-12 shadow p-3 mb-5 bg-white rounded gutter">

@@ -1,61 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Appearance</title>
-   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-<link rel="stylesheet" href="./test.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <link rel="stylesheet" href="./test.css">
 
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
-<link href="https://fonts.googleapis.com/css2?family=Sriracha&family=Thasadith:wght@700&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="./mycss.css">
-<style>
-#position-id{
-    width: 200px;
-    border: none;
-    background-color: white;
-    border-bottom: 1px solid purple;
-    outline: none;
-}
-.myicon-onk{
-    font-size: 22px;
-    padding:0px 9px;
-}
-.main_heading_input{
-    padding: 6px 70px 6px 6px;
-    
-}
-</style>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&family=Thasadith:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./mycss.css">
+    <style>
+        #position-id {
+            width: 250px;
+            border: none;
+            background-color: white;
+            border-bottom: 1px solid purple;
+            outline: none;
+        }
+
+        .myicon-onk {
+            font-size: 22px;
+            padding: 0px 9px;
+        }
+
+        .main_heading_input {
+            padding: 6px 70px 6px 6px;
+
+        }
+        .save_btn_final{
+            color: white;
+            padding: 9px 30px;
+            background-image: linear-gradient( 135.9deg,  rgba(109,25,252,1) 16.4%, rgba(125,31,165,1) 56.1% );
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .save_btn_fdefault{
+            color: white;
+            padding: 9px 30px;
+            background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body class="home">
     <div class="container-fluid display-table">
         <div class="row display-table-row">
             <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
                 <div class="logo">
-                    <a hef="home.html"><img src="./images.png"  style="height:100px; width: 100px;" alt="merkery_logo" class="hidden-xs hidden-sm"> 
-                        
+                    <a hef="home.html"><img src="./images.png" style="height:100px; width: 100px;" alt="merkery_logo"
+                            class="hidden-xs hidden-sm">
+
                         <img src="./images.png" alt="merkery_logo" class="visible-xs visible-sm circle-logo">
                     </a>
-                   
+
                 </div>
                 <div class="navi">
                     <ul>
-                        <li id="Link-setting1"><a href="./index.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Dashboard</span></a></li>
-                        <li id="Link-setting2"><a href="./settings.html" ><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Settings</span></a></li>
-                        <li id="Link-setting3"><a href="./import.html"><i class="fa fa-cloud-upload" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Import Zipcodes</span></a></li>
-                        <li id="Link-setting4"><a href="./appearance.html"><i class="fa fa-paint-brush" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Appearance</span></a></li>
-                        <li id="Link-setting5"><a href="#"><i class="fa fa-cloud-download" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Export Zipcodes</span></a></li>
-                        <li id="Link-setting6"><a href="#"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Get Help</span></a></li>
+                        <li id="Link-setting1"><a href="./index.html"><i class="fa fa-home" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Dashboard</span></a></li>
+                        <li id="Link-setting2"><a href="./settings.html"><i class="fa fa-cog"
+                                    aria-hidden="true"></i><span class="hidden-xs hidden-sm">Settings</span></a></li>
+                        <li id="Link-setting3"><a href="./import.html"><i class="fa fa-cloud-upload"
+                                    aria-hidden="true"></i><span class="hidden-xs hidden-sm">Import Zipcodes</span></a>
+                        </li>
+                        <li id="Link-setting4"><a href="./appearance.html"><i class="fa fa-paint-brush"
+                                    aria-hidden="true"></i><span class="hidden-xs hidden-sm">Appearance</span></a></li>
+                        <li id="Link-setting5"><a href="./export.html"><i class="fa fa-cloud-download" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Export Zipcodes</span></a></li>
+                        <li id="Link-setting6"><a href="#"><i class="fa fa-cog" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Get Help</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -66,7 +96,8 @@
                         <div class="col-md-7">
                             <nav class="navbar-default pull-left">
                                 <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas"
+                                        data-target="#side-menu" aria-expanded="false">
                                         <span class="sr-only">Toggle navigation</span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
@@ -74,123 +105,261 @@
                                     </button>
                                 </div>
                             </nav>
-                           
+
                         </div>
                         <div>
                             <h2 style="font-family: 'Sriracha', cursive; ">Zip Code Validator</h2>
                         </div>
-                        
+
                     </header>
                 </div>
                 <div class="user-dashboard">
                     <div class="row main_dash">
-                        
+
                         <div class="col-md-7 col-sm-7 col-xs-12 gutter">
 
                             <div class="row sales-report">
-                                <div class="col-md-12 shadow p-3 mb-5 bg-white rounded dashboard-help" style="margin-top:20px"> 
+                                <div class="col-md-12 shadow p-3 mb-5 bg-white rounded dashboard-help"
+                                    style="margin-top:20px">
                                     <h4 style="font-family: 'Sriracha', cursive;"><b>Widget Settings :</b></h4>
                                     <p>Customize the look & color scheme of zipcode Validator</p>
-                                </div>  
+                                </div>
                                 <div class="col-md-12 dash-points">
                                     <div class="col-md-12" style="margin-top: 10px;">
                                         <div class="col-md-12">
-                                        <h4>Zipcode Widget Position</h4>
-                                        <hr>
-                                        <div class="col-md-5">
-                                            <label>Choose Position :</label>
+                                            <h4>Zipcode Widget Position</h4>
+                                            <hr>
+                                            <div class="col-md-5">
+                                                <label>Choose Position :</label>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <select name="" id="position-id">
+                                                    <option value="">After Add To Cart Form</option>
+                                                    <option value="">Before Add To Cart Form</option>
+                                                    <option value="">Manual (Customized)</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                        <div class="col-md-7">
-                                             <select name="" id="position-id">
-                                                 <option value="">After Add To Cart Form</option>
-                                                 <option value="">Before Add To Cart Form</option>
-                                                 <option value="">Manual (Customized)</option>
-                                             </select>
-                                        </div>
-                                      </div>
                                     </div>
                                     <div class="col-md-12" style="margin-top: 10px;">
                                         <div class="col-md-12">
-                                        <h4>Zipcode Widget Heading</h4>
-                                        <hr>
-                                        <div class="col-md-5">
-                                            <label>Select Icon :</label>
-                                           
+                                            <h4>Zipcode Widget Heading</h4>
+                                            <hr>
+                                            <div class="col-md-5">
+                                                <label>Select Icon :</label>
+
+                                            </div>
+
+                                            <div class="col-md-7">
+                                                <input type="radio" name="icon"> <i class="fa fa-truck myicon-onk"
+                                                    aria-hidden="true"></i>
+                                                <input type="radio" name="icon"><i
+                                                    class="fa fa-shopping-cart fs-icon myicon-onk"
+                                                    aria-hidden="true"></i>
+                                                <input type="radio" name="icon"><i class="fa fa-map-marker myicon-onk"
+                                                    aria-hidden="true"></i>
+                                                <input type="radio" name="icon"><i class="fa fa-map myicon-onk"
+                                                    aria-hidden="true"></i>
+                                                <input type="radio" name="icon"><i class="fa fa-search myicon-onk"
+                                                    aria-hidden="true"></i>
+                                            </div>
                                         </div>
-                                        
-                                        <div class="col-md-7">
-                                             <input type="radio" name="icon"> <i class="fa fa-truck myicon-onk" aria-hidden="true"></i>
-                                             <input type="radio" name="icon"><i class="fa fa-shopping-cart fs-icon myicon-onk" aria-hidden="true"></i>
-                                             <input type="radio" name="icon"><i class="fa fa-map-marker myicon-onk" aria-hidden="true"></i>
-                                             <input type="radio" name="icon"><i class="fa fa-map myicon-onk" aria-hidden="true"></i>
-                                             <input type="radio" name="icon"><i class="fa fa-search myicon-onk" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                          <div class="col-md-12" style="margin-top: 15px">
+                                        <div class="col-md-12" style="margin-top: 15px">
                                             <div class="col-md-5">
                                                 <label style="padding-left: -10ox;">Heading :</label>
                                             </div>
                                             <div class="col-md-7">
-                                                <input type="text" class="main_heading_input" for="Heading" value="DELIVERY OPTIONS" placeholder="Heading" >
+                                                <input type="text" class="main_heading_input" for="Heading"
+                                                    value="DELIVERY OPTIONS" placeholder="Heading">
                                             </div>
                                         </div>
                                     </div>
-                                </div>  
-                                <div class="col-md-12" style="margin-top: 10px;">
-                                    <div class="col-md-12">
-                                    <h4>Zipcode Input Box</h4>
-                                    <hr>
-                                    <div class="col-md-5">
-                                        <label>Choose Position :</label>
-                                    </div>
-                                    <div class="col-md-7">
-                                         <select name="" id="position-id">
-                                             <option value="">After Add To Cart Form</option>
-                                             <option value="">Before Add To Cart Form</option>
-                                             <option value="">Manual (Customized)</option>
-                                         </select>
-                                    </div>
-                                  </div>
-                                </div>                    
-                            </div>
-                        </div>
-                        <div class="col-md-5 col-sm-5 col-xs-12 shadow p-3 mb-5 bg-white rounded gutter">
-                            
-                            <div class="sales">
-                                <div class="col-md-12 dashboard-help">
-                                    <h5 style="font-family: 'Sriracha', cursive;"><b>Output :</b>
-                                       <br>  It will look like this at your store. (Enter 462022 to view message when available, any other input will give message when not available.)</span></h5>
-                                </div> 
-                                <!-- <div>
-                                    <img src="./truck.gif" style="width: 90%;" alt="">
-                                </div> -->
-                                <div class="col-md-12">
-                                    <h4 style="padding-left:15px;padding-top: 30px;font-weight: 800; font-family:  'Sriracha', cursive; padding-bottom: 25px;">Preview :</h4>
-                                    <div class="col-md-12" style="padding-bottom: 35px;">
-                                        <label for="DELIVERY OPTIONS" style="padding-bottom: 10px;"> <i class="fa fa-truck" style="font-size: 20px;" aria-hidden="true"></i> &nbsp;  DELIVERY OPTIONS</label>
-                                         <input type="text" style="padding: 9px 0px 9px 10px;" placeholder="Enter your zipcode" name="" id=""> 
-                                         <button class="check-valid-btn" >CHECK</button>
-                                    </div>
+                                    <div class="col-md-12" style="margin-top: 10px;">
+                                        <div class="col-md-12">
+                                            <h4>Zipcode Input Box</h4>
+                                            <hr>
+                                            <div class="col-md-5">
+                                                <label>Placeholder Text:</label>
 
+                                            </div>
+
+                                            <div class="col-md-7">
+                                                <input type="text" class="main_heading_input" for="Heading"
+                                                value="Enter your zipcode" placeholder="Heading">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="margin-top: 25px">
+                                            <div class="col-md-5">
+                                                <label style="padding-left: -10ox;">Border Style :</label>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <select name="" id="position-id">
+                                                    <option value="">Solid</option>
+                                                    <option value="">Dashed</option>
+                                                    <option value="">Dotted</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="margin-top: 25px">
+                                            <div class="col-md-5">
+                                                <label style="padding-left: -10ox;">Border Color :</label>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input type="color" style="width: 250px;border: none;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="margin-top: 25px">
+                                            <div class="col-md-5">
+                                                <label style="padding-left: -10ox;">Border radius :</label>
+                                            </div>
+                                            <div class="col-md-7">
+                                               <input type="range" style="width: 250px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" style="margin-top: 10px;">
+                                        <div class="col-md-12">
+                                            <h4>Zipcode Check Button</h4>
+                                            <hr>
+                                            <div class="col-md-5">
+                                                <label>Button Text</label>
+
+                                            </div>
+
+                                            <div class="col-md-7">
+                                                <input type="text" class="main_heading_input" for="Heading"
+                                                value="Check" placeholder="Check">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="margin-top: 25px">
+                                            <div class="col-md-5">
+                                                <label style="padding-left: -10ox;">Border Radius :</label>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input type="range" style="width: 250px;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="margin-top: 25px">
+                                            <div class="col-md-5">
+                                                <label style="padding-left: -10ox;"> Background Color :
+                                                </label>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input type="color" value="#83139e" style="width: 250px;border: none;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="margin-top: 25px">
+                                            <div class="col-md-5">
+                                                <label style="padding-left: -10ox;">Text Color :</label>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input type="color"  value="#F5F5F5" style="width: 250px;border: none;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" style="margin-top: 10px;">
+                                        <div class="col-md-12">
+                                            <h4>Zipcode Output Message</h4>
+                                            <hr>
+                                            <div class="col-md-5">
+                                                <label>Success Message :</label>
+
+                                            </div>
+
+                                            <div class="col-md-7">
+                                                <input type="text" class="main_heading_input" for="Heading"
+                                                value="We deliver to your zipcode." placeholder="Check">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="margin-top: 25px">
+                                            <div class="col-md-5">
+                                                <label style="padding-left: -10ox;">Success Color :</label>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input type="color"  value="#009E12" style="width: 250px;border: none;">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="margin-top: 25px">
+                                            <div class="col-md-5">
+                                                <label style="padding-left: -10ox;"> Faliure Message :
+                                                </label>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input type="text" class="main_heading_input" for="Heading"
+                                                value="Unfortunately we do not ship to your zipcode." placeholder="Check">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="margin-top: 25px">
+                                            <div class="col-md-5">
+                                                <label style="padding-left: -10ox;">Faliure Color :</label>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input type="color"  value="#FF2600" style="width: 250px;border: none;">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" style="margin-top: 30px; padding-bottom: 30px;">
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <button class="save_btn_final">SAVE SETTINGS</button> 
+                                            </div>
+                                            <div class="col-md-6">
+                                                <button class="save_btn_fdefault">SET TO DEFAULTS</button>
+                                            </div>
+                                       </div>
+                                    </div>
                                 </div>
                                 
                             </div>
                         </div>
+                        <div class="col-md-5 col-sm-5 col-xs-12 shadow p-3 mb-5 bg-white rounded gutter">
+
+                            <div class="sales">
+                                <div class="col-md-12 dashboard-help">
+                                    <h5 style="font-family: 'Sriracha', cursive;"><b>Output :</b>
+                                        <br> It will look like this at your store. (Enter 462022 to view message when
+                                        available, any other input will give message when not available.)</span></h5>
+                                </div>
+                                <!-- <div>
+                                    <img src="./truck.gif" style="width: 90%;" alt="">
+                                </div> -->
+                                <div class="col-md-12">
+                                    <h4
+                                        style="padding-left:15px;padding-top: 30px;font-weight: 800; font-family:  'Sriracha', cursive; padding-bottom: 25px;">
+                                        Preview :</h4>
+                                    <div class="col-md-12" style="padding-bottom: 35px;">
+                                        <label for="DELIVERY OPTIONS" style="padding-bottom: 10px;"> <i
+                                                class="fa fa-truck" style="font-size: 20px;" aria-hidden="true"></i>
+                                            &nbsp; DELIVERY OPTIONS</label>
+                                        <input type="text" style="padding: 9px 0px 9px 10px;"
+                                            placeholder="Enter your zipcode" name="" id="">
+                                        <button class="check-valid-btn">CHECK</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                   
+
                 </div>
                 <div class="row Myfooter">
-                 <p style="text-align: center;padding-top: 20px;">©<b> 2020 Copyright:</b> Made with <i class="fa fa-heart" aria-hidden="true"></i>  Zip Code Validator | <span style="color:#5e20f1;">Ens Unique Product</span> </p>
+                    <p style="text-align: center;padding-top: 20px;">©<b> 2020 Copyright:</b> Made with <i
+                            class="fa fa-heart" aria-hidden="true"></i> Zip Code Validator | <span
+                            style="color:#5e20f1;">Ens Unique Product</span> </p>
                 </div>
             </div>
         </div>
 
     </div>
 
-<script src="./main.js"></script>
-<script>
-   
- 
-</script>
+    <script src="./main.js"></script>
+    <script>
+
+
+    </script>
 </body>
+
 </html>
