@@ -10,7 +10,24 @@ for(var i=1; i<= Math.round(totalElement.length/3); i++ ){
     }else{
     var l = l+3;
     var n = n+3;}
-    // if(i==1){
+   
+    for(var j=l; j<= n; j++){
+        console.log(totalElement[j]);
+
+    }  
+}
+
+
+
+
+
+
+
+
+
+
+
+ // if(i==1){
     //     var l = 0;
     //     var n = 2;
     // }else if(i==2){
@@ -30,8 +47,3 @@ for(var i=1; i<= Math.round(totalElement.length/3); i++ ){
     //     var l = 0;
     //     var n = 2
     // }
-    for(var j=l; j<= n; j++){
-        console.log(totalElement[j]);
-
-    }  
-}

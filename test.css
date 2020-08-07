@@ -181,12 +181,9 @@ li,ul{
 /*Home Page*/
 
 .home {
-    background: #e8e8e8;
+    background: #ffe8fe;
 }
 
-#navigation {
-    background: #0e1a35;
-}
 
 #navigation {
     padding: 0;
